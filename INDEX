@@ -1,67 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Skin Cancer Detection Research</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 20px;
-      background-color: #f7f7f7;
-    }
-    #paperContent {
-      display: none;
-      padding: 20px;
-      margin-top: 20px;
-      background-color: #ffffff;
-      border: 1px solid #ccc;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      max-width: 800px;
-    }
-    button {
-      padding: 10px 20px;
-      font-size: 16px;
-      border: none;
-      background-color: #2c3e50;
-      color: white;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #1abc9c;
-    }
-    h2 {
-      color: #2c3e50;
-    }
-  </style>
-</head>
-<body>
-
-
-<button onclick="togglePaper()">Skin Cancer Detection Research</button>
-
-<div id="paperContent">
-  <h2>Skin Cancer Detection Using Machine Learning – Research Paper Overview</h2>
-  <p><strong>Objective:</strong> Develop a machine learning model for early detection of melanoma from dermoscopic images, aiding in faster diagnosis and treatment.</p>
-  <p><strong>Technologies Used:</strong> Python, TensorFlow, Keras, CNNs, OpenCV, ISIC Dataset</p>
-  <p><strong>Methodology:</strong> Images were preprocessed and classified using CNN. Techniques like data augmentation and dropout layers were applied to boost model performance and avoid overfitting.</p>
-  <p><strong>Results:</strong> Achieved over 89% accuracy with strong metrics like F1-score and ROC-AUC. Model proved promising for medical image diagnostics.</p>
-  <p><strong>Contributions:</strong> Developed a full pipeline, explored ethical considerations, and proposed future improvements including mobile integration.</p>
-  <p><strong>What I Learned:</strong> Deepened my understanding of ML in healthcare, image processing, and deployment strategies.</p>
-  <p><strong>Future Scope:</strong> Expand the model into a real-time mobile/web tool for early skin cancer risk detection in remote areas.</p>
-</div>
-
-<script>
-  function togglePaper() {
-    const paper = document.getElementById("paperContent");
-    if (paper.style.display === "none") {
-      paper.style.display = "block";
-    } else {
-      paper.style.display = "none";
-    }
-  }
-</script>
-
-</body>
-</html>
+<section id="research" style="padding: 40px; background-color: #f9f9f9;">
+  <h2 style="color: #2c3e50; font-size: 28px;">📚 Research Work</h2>
+  <ul style="list-style-type: none; padding-left: 0; margin-top: 20px;">
+    <li style="margin-bottom: 20px; background: #ffffff; padding: 20px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+      <h3 style="margin: 0 0 10px; color: #1e3c72;">🧠 Skin Cancer Detection using Machine Learning Algorithms</h3>
+      <p style="margin: 0 0 10px;">A research paper that explores the use of convolutional neural networks and image processing techniques to classify skin lesions as benign or malignant with high accuracy.</p>
+      <a href="https://github.com/your-github-username/repo-name/blob/main/Skin%20Caner%20Detection%20using%20Machine%20Learning%20Algorithms.docx" 
+         target="_blank"
+         style="display: inline-block; padding: 10px 15px; background-color: #1abc9c; color: #fff; text-decoration: none; border-radius: 5px;">
+         🔗 View Paper on GitHub
+      </a>
+    </li>
+  </ul>
+</section>
